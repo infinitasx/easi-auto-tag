@@ -1,0 +1,35 @@
+{
+  "name": "easi-auto-tag",
+  "version": "0.1.0",
+  "description": "EASI auto tag tool for FRONTEND projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "easi-auto-tag": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinitasx/easi-auto-tag.git"
+  },
+  "keywords": [
+    "auto",
+    "git",
+    "tag"
+  ],
+  "author": "Chris Chen <me.chenying@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infinitasx/easi-auto-tag/issues"
+  },
+  "homepage": "https://github.com/infinitasx/easi-auto-tag#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "execa": "^5.0.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0",
+    "semver": "^7.3.5",
+    "yargs-parser": "^20.2.7"
+  }
+}

@@ -11,6 +11,9 @@ if (cwd.indexOf('node_modules') >= 0) {
   if (pkg.hasOwnProperty('scripts')) {
     if (pkg.scripts.hasOwnProperty('easi-auto-tag')) {
       delete pkg.scripts['easi-auto-tag']
+
+      // save package.json
+      fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2))
     }
   }
 }

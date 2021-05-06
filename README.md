@@ -2,7 +2,7 @@
 EASI 前端项目 auto tag 工具
 
 ## 安装
-`yarn add /Users/chris/PyCharmProjects/easi-auto-tag#main`
+`yarn add https://github.com/infinitasx/easi-auto-tag.git#main`
 
 或者
 

@@ -6,7 +6,7 @@ EASI 前端项目 auto tag 工具
 
 或者
 
-使用 `https://github.com/infinitasx/easi-frontend-cli`
+使用 [easi-frontend-cli](https://github.com/infinitasx/easi-frontend-cli)
 
 ## 使用
 `yarn easi-auto-tag`

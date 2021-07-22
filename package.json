@@ -1,6 +1,6 @@
 {
   "name": "easi-auto-tag",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "EASI auto tag tool for FRONTEND projects.",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "execa": "^5.0.0",
     "inquirer": "^8.0.0",
     "ora": "^5.4.0",
-    "semver": "^7.3.5"
+    "semver": "^7.3.5",
+    "yargs-parser": "^20.2.9"
   }
 }

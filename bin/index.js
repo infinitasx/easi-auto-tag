@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-const argv = require('yargs-parser')(process.argv)
+let argv = require('yargs-parser')(process.argv)
 const runDefault = require('../lib/index')
 const runSimplified = require('../lib/simplified')
+
+argv = argv._.slice(2)
 
 if (argv.length === 0) {
   runDefault()
 } else {
-  runSimplified(...argv._.slice(2))
+  runSimplified(...argv)
 }

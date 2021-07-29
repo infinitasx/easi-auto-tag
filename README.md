@@ -10,3 +10,7 @@ EASI 前端项目 auto tag 工具
 
 ## 使用
 `yarn easi-auto-tag`
+
+或者
+
+`yarn easi-atuo-tag alpha/beta/rc`

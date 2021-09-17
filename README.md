@@ -13,4 +13,4 @@ EASI 前端项目 auto tag 工具
 
 或者
 
-`yarn easi-atuo-tag alpha/beta/rc`
+`yarn easi-atuo-tag alpha/beta/rc/release`

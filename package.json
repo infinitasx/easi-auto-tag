@@ -1,6 +1,6 @@
 {
   "name": "easi-auto-tag",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "EASI auto tag tool for FRONTEND projects.",
   "main": "index.js",
   "scripts": {
